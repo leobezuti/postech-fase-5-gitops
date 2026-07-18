@@ -9,4 +9,4 @@ resources:
 images:
 - name: volunteer-service-image
   newName: 908212073039.dkr.ecr.us-east-1.amazonaws.com/volunteer-service
-  newTag: db3c0478bce0a0c11755b4eb24c44c77a1410841
+  newTag: f5363437ba92c9ac43fd57b112dd9518588cb8fd
