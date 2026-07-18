@@ -9,4 +9,4 @@ resources:
 images:
 - name: ngo-service-image
   newName: 908212073039.dkr.ecr.us-east-1.amazonaws.com/ngo-service
-  newTag: db3c0478bce0a0c11755b4eb24c44c77a1410841
+  newTag: f6891eb0d9b4461c5585b8c7d759b2427248cfd5
