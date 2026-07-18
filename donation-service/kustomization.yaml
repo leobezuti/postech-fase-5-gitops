@@ -4,8 +4,10 @@ namespace: solidarytech
 resources:
   - deployment.yaml
   - service.yaml
-  - configmap.yaml
   - ingress.yaml
+# O ConfigMap donation-service-config e criado pelo Terraform
+# (resources/k8s-secrets), junto com as Secrets, para poder usar
+# a URL real da fila SQS obtida via data source.
 images:
 - name: donation-service-image
   newName: 510818802086.dkr.ecr.us-east-1.amazonaws.com/donation-service
