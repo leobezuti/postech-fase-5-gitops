@@ -11,4 +11,4 @@ resources:
 images:
 - name: donation-service-image
   newName: 908212073039.dkr.ecr.us-east-1.amazonaws.com/donation-service
-  newTag: 4472bc2734526d7d48eef490a14c41f0a4af3bc6
+  newTag: 196c0c3412c8af6e4a4aab58b22b6fa71bdb6ed4
