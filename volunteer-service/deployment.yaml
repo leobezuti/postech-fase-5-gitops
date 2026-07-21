@@ -25,10 +25,10 @@ spec:
                 name: volunteer-service-config
           resources:
             requests:
-              cpu: 100m
-              memory: 128Mi
+              cpu: 50m
+              memory: 80Mi
             limits:
-              cpu: 500m
+              cpu: 300m
               memory: 256Mi
           livenessProbe:
             httpGet:
